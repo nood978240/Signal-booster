@@ -1,0 +1,21 @@
+# Ignore compiled files
+*.class
+*.war
+*.ear
+*.jar
+
+# Ignore dependencies
+/target/
+/node_modules/
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files with sensitive information
+config.json
+secrets.yaml
