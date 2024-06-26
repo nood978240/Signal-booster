@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signal Booster</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Signal Booster</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2>About Signal Booster</h2>
+            <p>Signal Booster helps enhance the visibility and engagement of GitHub repositories. By following best practices and optimizing your project setup, you can attract more stars and contributions.</p>
+        </section>
+        <section>
+            <h2>Key Features</h2>
+            <ul>
+                <li>Easy-to-use template</li>
+                <li>Clear and structured README format</li>
+                <li>Encourages forking and starring</li>
+            </ul>
+        </section>
+        <a href="#" class="btn">Get Started</a>
+    </div>
+    <footer style="text-align: center; padding: 10px; background-color: #333; color: #fff; margin-top: 20px;">
+        &copy; 2024 Signal Booster. All rights reserved.
+    </footer>
+</body>
+</html>
